@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة التميز - كشف تسربات المياه بجازان</title>
+    <!-- استيراد خط أنيق للتصميم -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome للأيقونات -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        header {
+            background: linear-gradient(135deg, #005c8a, #0083b0);
+            color: white;
+            padding: 30px 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            font-weight: 900;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        .offer-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            border-top: 5px solid #ff9800;
+        }
+
+        .offer-card h2 {
+            color: #d32f2f;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .offer-card p {
+            font-size: 1.15rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .features {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            text-align: right;
+        }
+
+        .features h3 {
+            color: #005c8a;
+            margin-bottom: 12px;
+            text-align: center;
+            font-size: 1.3rem;
+        }
+
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .features li {
+            padding: 8px 0;
+            font-size: 1.05rem;
+            border-bottom: 1px solid #eee;
+            position: relative;
+            padding-right: 25px;
+        }
+
+        .features li::before {
+            content: "✓";
+            color: #2e7d32;
+            position: absolute;
+            right: 0;
+            font-weight: bold;
+        }
+
+        .features li:last-child {
+            border-bottom: none;
+        }
+
+        /* أزرار الاتصال والواتساب */
+        .cta-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            flex: 1;
+            padding: 15px 10px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            color: white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            transition: transform 0.2s, opacity 0.2s;
+        }
+
+        .btn:active {
+            transform: scale(0.98);
+        }
+
+        .btn-whatsapp {
+            background-color: #25d366;
+        }
+
+        .btn-call {
+            background-color: #007bff;
+        }
+
+        footer {
+            background-color: #263238;
+            color: #cfd8dc;
+            padding: 15px;
+            font-size: 0.9rem;
+        }
+
+        /* تحسينات الموبايل */
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.6rem;
+            }
+            .cta-buttons {
+                flex-direction: column;
+            }
+            .btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>شركة التميز</h1>
+        <p>أفضل خدمات كشف تسربات المياه بجازان بدون تكسير</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- كارت العرض -->
+        <div class="offer-card">
+            <h2>خصم 30% لفترة محدودة!</h2>
+            <p>العرض ساري حصرياً <strong>لأول 20 عميل</strong> فقط. بادر بحجز نسختك الآن وتخلص من ارتفاع فاتورة المياه نهائياً بأحدث أجهزة الكشف الإلكترونية.</p>
+        </div>
+
+        <!-- المميزات -->
+        <div class="features">
+            <h3>لماذا تختار شركة التميز؟</h3>
+            <ul>
+                <li>كشف دقيق لمكان التسرب بدون أي تكسير.</li>
+                <li>فريق مهني معتمد لحل جميع مشاكل الرطوبة والتسربات.</li>
+                <li>تقرير معتمد لشركة المياه الوطنية.</li>
+                <li>أسعار تنافسية مع ضمان شامل على الإصلاح.</li>
+            </ul>
+        </div>
+
+        <!-- أزرار التواصل -->
+        <div class="cta-buttons">
+            <a href="https://wa.me/966579060180" class="btn btn-whatsapp" target="_blank">
+                <i class="fab fa-whatsapp"></i> واتساب
+            </a>
+            <a href="tel:0579060180" class="btn btn-call">
+                <i class="fas fa-phone-alt"></i> اتصل الآن
+            </a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>جميع الحقوق محفوظة © شركة التميز بجازان 2026</p>
+    </footer>
+
+</body>
+</html>
